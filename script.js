@@ -41,7 +41,7 @@ divisao.addEventListener('click', () => {
 
     const result = Number(input1) / Number(input2);
 
-    resposta.innerHTML = result;
+    resposta.innerHTML = result.toFixed(5);;
 });
 
 clear.addEventListener('click', () => {
